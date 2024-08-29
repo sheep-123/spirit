@@ -1,0 +1,774 @@
+.bg {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  background: url(../images/R-C.jpg) no-repeat;
+  background-size: cover;
+  transition: 0.4s linear;
+}
+.bg .text {
+  text-align: center;
+  margin-top: 14em;
+}
+.bg .text h1 {
+  font-size: 2.5em;
+  color: #fff;
+  font-family: OSLight;
+}
+.bg .text h1 span {
+  font-family: OSBold;
+  color: #fcac45;
+}
+.bg .text p {
+  font-size: 1.4em;
+  color: #fff;
+  font-family: OBLight;
+  margin-bottom: 15em;
+}
+.bg .text p span {
+  font-family: OSBold;
+  color: #fff;
+}
+.bg .text .more {
+  width: 2.5em;
+  height: 2.5em;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin: 0 auto;
+}
+.bg .text .more:hover {
+  margin-top: -10px;
+  box-shadow: 0 5px 10px #fff;
+}
+.bg .text .more a {
+  color: #fff;
+}
+.about {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  overflow: hidden;
+  transition: 1s linear;
+}
+.about .main {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about .main .about-l {
+  width: 40%;
+  height: 450px;
+  height: auto;
+}
+.about .main .about-r {
+  width: 40%;
+  height: auto;
+}
+.about .main .about-r .title {
+  text-align: left;
+  margin-top: 100px;
+}
+.about .main .about-r .title p {
+  font-size: 1.5em;
+  color: #999999;
+  text-transform: uppercase;
+}
+.about .main .about-r .title h3 {
+  font-size: 2.5em;
+  color: #222222;
+  margin-top: 10px;
+}
+.about .main .about-r .title span:nth-child(1) {
+  border-bottom: 4px solid #fcac45;
+  padding-bottom: 10px;
+}
+.about .main .about-r .title span:nth-child(2) {
+  color: #222222;
+  font-weight: bold;
+  font-family: OSBold;
+}
+.about .main .about-r .am {
+  font-size: 1.3em;
+  padding-top: 10px;
+  font-family: OSLight;
+  margin-top: 40px;
+  color: #6c6c6c;
+}
+.about .main .about-r .list {
+  margin-top: 50px;
+}
+.about .main .about-r .list span:nth-child(2) {
+  font-family: OSBold;
+}
+.about .main .about-r .list li {
+  margin-bottom: 15px;
+  font-family: OSLight;
+}
+.about .main .about-r .box {
+  width: 194px;
+  height: 46px;
+  border: 1px solid #7f7f7f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0 100px;
+  border-radius: 3px;
+  font-family: OSLight;
+  font-size: 1em;
+}
+.team {
+  width: 100%;
+  height: auto;
+  padding: 60px 0 60px 0;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+}
+.team .main {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.team .main h3 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: white;
+  background: url(../images/两条杠_03.png) no-repeat bottom center;
+  padding-bottom: 0.8em;
+  margin-bottom: 2.4em;
+  font-family: OSLight;
+}
+.team .main h3 span {
+  font-weight: bold;
+  font-family: OSBold;
+}
+.team .main .four {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.team .main .four .item {
+  width: 20%;
+  height: 100%;
+}
+.team .main .four .item img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.team .main .four .item h1 {
+  color: white;
+  font-size: 1.5em;
+  padding-top: 22px;
+  font-family: OSBold;
+}
+.team .main .four .item h4 {
+  color: white;
+  font-size: 1.2em;
+  padding-top: 9px;
+  font-family: OSLight;
+}
+.team .main .four .item p {
+  color: white;
+  font-size: 1em;
+  padding-top: 30px;
+  font-family: OSLight;
+}
+.team .main .dians {
+  width: 100%;
+  height: 10px;
+  margin-top: 70px;
+}
+.team .main .dians .dian {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 10px;
+}
+.team .main .dians .dian:hover {
+  background-color: #fcac45;
+}
+.services {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  text-align: center;
+}
+.services .main {
+  width: 80%;
+  height: auto;
+  margin: 96px auto;
+}
+.services .main .title {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2.85em;
+}
+.services .main .title h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  background: url(../images/两条杠_03.png) no-repeat bottom center;
+  padding-bottom: 0.8em;
+  font-family: OSLight;
+}
+.services .main .title h1 span {
+  font-family: OsBold;
+}
+.services .main p {
+  font-size: 1.2em;
+  color: #6c6c6c;
+  font-family: OSLight;
+}
+.services .main .item {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.services .main .item .web {
+  padding: 50px 0;
+  width: 20%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services .main .item .web .web1 {
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+  border: 5px solid #fcac45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.services .main .item .web h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: OSBold;
+}
+.services .main .item .web p {
+  font-size: 1em;
+  color: black;
+}
+.clients {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  overflow: hidden;
+}
+.clients .main {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.clients .main .title {
+  width: 100%;
+  height: auto;
+  margin: 0 atuo;
+  text-align: center;
+  margin-top: 100px;
+}
+.clients .main .title h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2.5em;
+  background: url(../images/两条杠_03.png) no-repeat bottom center;
+  padding-bottom: 0.8em;
+  font-family: OSLight;
+}
+.clients .main .title h1 span {
+  font-weight: bold;
+}
+.clients .main .text {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.clients .main .dians {
+  width: 100%;
+  height: 10px;
+  margin: 100px auto;
+  text-align: center;
+}
+.clients .main .dians .dian {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 10px;
+}
+.clients .main .dians .dian:hover {
+  background-color: #fcac45;
+}
+.work {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.work .main {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.work .main .title {
+  margin: 100px auto 40px;
+  text-align: center;
+}
+.work .main .title h1 {
+  width: 100%;
+  height: auto;
+  font-size: 2.5em;
+  background: url(../images/两条杠_03.png) no-repeat bottom center;
+  padding-bottom: 0.8em;
+  text-transform: uppercase;
+  font-family: OSLight;
+}
+.work .main .title h1 span {
+  font-family: OSBold;
+}
+.work .main p {
+  font-size: 1.3rem;
+  color: #6c6c6c;
+  margin-bottom: 50px;
+  font-family: OSLtalic;
+  text-align: center;
+}
+.work .main .item {
+  width: 100%;
+  height: auto;
+}
+.work .main .item .list {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999999;
+  font-size: 1.2em;
+}
+.work .main .item .list .left {
+  text-transform: uppercase;
+  width: 30%;
+  color: #222222;
+  font-size: 1.3em;
+}
+.work .main .item .list .right a {
+  text-transform: capitalize;
+  color: #636363;
+  font-size: 1.3em;
+  border-right: 1px solid #636363;
+  padding: 0em 1em;
+  transition: linear 0.2s;
+}
+.work .main .item .list .right a:hover {
+  color: #070707;
+}
+.work .main .item .list .right a:last-child {
+  border-right: 0px;
+  padding-right: 0;
+}
+.work .main .item .list .select {
+  display: none;
+}
+.work .main .item .box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.work .main .item .box .box1 {
+  width: 22%;
+  margin-bottom: 2em;
+}
+.work .main .item .box .box1 .box2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.work .main .item .box .box1 .box2 img {
+  width: 100%;
+  height: 100%;
+}
+.work .main .item .box .box1 .box2 .e1 {
+  position: absolute;
+  top: 455px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #000000;
+  transition: 0.5s linear;
+}
+.work .main .item .box .box1 .box2 .e1 h1 {
+  margin-top: 40px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.work .main .item .box .box1 .box2 .e1 p {
+  font-size: 1.2em;
+  margin-bottom: 28px;
+}
+.work .main .item .box .box1 .box2 .e1 .plus {
+  width: 38px;
+  height: 38px;
+  color: #fcac45;
+  font-size: 2.5em;
+  border: 2px solid #fcac45;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work .main .item .box .box1 .box2:hover .e1 {
+  top: 0;
+}
+.testimonials {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  overflow: hidden;
+}
+.testimonials .main {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.testimonials .main .title {
+  width: 100%;
+  height: auto;
+  margin: 70px 0 50px 0;
+  text-align: center;
+}
+.testimonials .main .title h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: white;
+  background: url(../images/两条杠_03.png) no-repeat bottom center;
+  padding-bottom: 0.8em;
+  font-weight: normal;
+}
+.testimonials .main .title h1 span {
+  font-weight: bold;
+}
+.testimonials .main .text {
+  width: 100%;
+  height: 105px;
+  margin-top: 65px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.testimonials .main .text h3 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+.testimonials .main .text p {
+  text-transform: capitalize;
+  font-size: 1.2em;
+  color: #999;
+}
+.testimonials .main .dians {
+  width: 100%;
+  height: 10px;
+  margin: 100px auto;
+  text-align: center;
+}
+.testimonials .main .dians .dian {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 10px;
+}
+.testimonials .main .dians .dian:hover {
+  background-color: #fcac45;
+}
+.contact {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.contact .main {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.contact .main .title {
+  width: 100%;
+  margin-top: 100px;
+}
+.contact .main .title h1 {
+  font-size: 2.5em;
+  background: url(../images/两条杠_03.png) no-repeat bottom center;
+  padding-bottom: 0.8em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contact .main .title h1 span {
+  font-weight: bold;
+}
+.contact .main p {
+  margin-top: 42px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.contact .main .form {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+.contact .main .form .top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .main .form .top .content {
+  width: 45%;
+}
+.contact .main .form .top .content h5 {
+  font-size: 1.5em;
+  color: #999;
+}
+.contact .main .form .top .content h5 sup {
+  color: red;
+}
+.contact .main .form .top .content input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 40px;
+}
+.contact .main .form .bottom {
+  width: 100%;
+  height: auto;
+}
+.contact .main .form .bottom .b1 {
+  width: 100%;
+}
+.contact .main .form .bottom .b1 h5 {
+  font-size: 1.5em;
+  color: #999;
+}
+.contact .main .form .bottom .b1 h5 sup {
+  color: red;
+}
+.contact .main .form .bottom .b1 textarea {
+  height: 164px;
+  width: 100%;
+  resize: none;
+}
+.contact .main .form .send {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 0;
+}
+.contact .main .form .send .bt {
+  width: 11em;
+  height: 3em;
+  border: none;
+  background: #fcac45;
+  color: white;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1440px) {
+  .clients .main .text {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .clients .main .text img {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .work .main .item .box .box1 {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .team .main .four {
+    flex-direction: column;
+  }
+  .team .main .four .item {
+    display: flex;
+    margin: 10px;
+  }
+  .team .main .four .item img {
+    max-width: 200px;
+  }
+  .team .main .four .item .font {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+  }
+  .team .main .four .item .font h1 {
+    width: 300px;
+    font-size: 1.5em;
+  }
+  .team .main .four .item .font h4 {
+    width: 300px;
+    font-size: 1.2em;
+  }
+  .team .main .four .item .font p {
+    font-size: 1em;
+    height: 30px;
+  }
+  .services .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .services .main .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .services .main .item .web {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+  .services .main .item .web .web1 {
+    margin-top: 10px;
+  }
+  .services .main .item .web .font {
+    width: 70%;
+    text-align: left;
+  }
+  .contact .main .form .top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact .main .form .top .content {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1007px) {
+  .work .main .item .list .select {
+    display: block;
+  }
+  .work .main .item .list .select select {
+    width: 200px;
+  }
+  .work .main .item .list .right {
+    display: none;
+  }
+}
+@media screen and (max-width: 996px) {
+  .work .main .item .box .box1 {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about .main {
+    text-align: center;
+  }
+  .about .main .about-l {
+    width: 0;
+  }
+  .about .main .about-r {
+    width: 100%;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .about .main .about-r .list {
+    margin-top: 50px;
+  }
+  .about .main .about-r .box {
+    margin: 50px 0 100px;
+  }
+  .team .main {
+    width: 100%;
+  }
+  .team .main .four .item {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .team .main .four .item img {
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+  }
+  .team .main .four .item .font p {
+    width: 200px;
+    padding-top: 20px;
+  }
+  .team .main .four .item .font h1 {
+    padding: 0;
+  }
+  .bg .text p {
+    text-align: center;
+  }
+  .bg .text h1 {
+    text-align: center;
+  }
+  .services .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .services .main .item {
+    display: flex;
+    flex-direction: column;
+  }
+  .services .main .item .web {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+  .services .main .item .web .web1 {
+    margin-top: 10px;
+  }
+  .services .main .item .web .font {
+    width: 50%;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 500px) {
+  .testimonials .main .text {
+    margin-top: 30px;
+  }
+  .testimonials .main .dians {
+    margin-top: 250px;
+  }
+  .work .main .item .list .left {
+    width: 40%;
+    font-size: 1em;
+  }
+  .work .main .item .list .select {
+    width: 100px;
+  }
+  .work .main .item .list .select select {
+    width: 100px;
+  }
+}

@@ -1,0 +1,135 @@
+.header {
+  width: 100%;
+  height: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #111111;
+}
+.header .navbar {
+  background-color: transparent;
+  margin: 0;
+}
+.header .navbar .navbar-brand {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: OSBold;
+}
+.header .navbar .nav a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: OSLight;
+  border-bottom: 3px solid transparent;
+  transition: 0.2s linear;
+}
+.header .navbar .nav a:hover {
+  border-bottom: 3px solid #292929;
+}
+@media screen and (max-width: 770px) {
+  .header .nav a {
+    text-align: center;
+  }
+}
+.up {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 45px;
+  right: 45px;
+}
+.up a {
+  width: 100%;
+  height: 100%;
+}
+.up a:hover {
+  animation: up 1s;
+}
+@keyframes up {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+.footer .main {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.footer .main .left {
+  width: 50%;
+  font-size: 1em;
+  color: #b2b2b2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer .main .left span {
+  color: white;
+}
+.footer .main .right {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 1020px) {
+  .footer .main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+    line-height: 60px;
+    text-align: center;
+  }
+  .footer .main .left {
+    width: 100%;
+  }
+  .footer .main .right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer .main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    line-height: 50px;
+    text-align: center;
+    flex-wrap: nowrap;
+  }
+  .footer .main .left {
+    width: 300px;
+    line-height: 30px;
+  }
+  .footer .main .right {
+    width: 100%;
+  }
+}
